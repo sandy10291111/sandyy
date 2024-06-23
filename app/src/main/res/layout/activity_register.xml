@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/R_img_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gambar1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_img_1"
+        android:text="Halaman Register"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:id="@+id/R_Txt_1"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/R_Txt_1"/>
+
+    <EditText
+        android:id="@+id/edt_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_Txt_1"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:hint="Enter Your Full Name"
+        android:minHeight="48dp"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_fullname"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:hint="Enter Email"
+        android:minHeight="48dp"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_email"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:hint="Create Password"
+        android:minHeight="48dp"
+        android:paddingLeft="15dp" />
+
+    <EditText
+        android:id="@+id/edt_confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_password"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/white"
+        android:hint="Confirm Password"
+        android:minHeight="48dp"
+        android:paddingLeft="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_confirmpassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Register"
+        android:id="@+id/R_btn_1"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/R_btn_1"
+        android:layout_marginTop="20dp">
+
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Have Account?"
+            android:layout_below="@id/R_btn_1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_below="@id/R_btn_1"
+        android:fontFamily="sans-serif-black"/>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
